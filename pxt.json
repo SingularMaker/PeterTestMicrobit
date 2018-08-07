@@ -1,0 +1,21 @@
+{
+    "name": "SingularBot",
+    "version": "1.0.0",
+    "description": "Extension for Singular Microbit Block",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "RGBLight.ts",
+        "sendbuffer.asm",
+        "_locales/zh/singular-strings.json",
+        "_locales/zh/singular-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
