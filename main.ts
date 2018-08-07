@@ -756,14 +756,9 @@ namespace singularbot {
 	    /**
      *	Read FT Light Sensor
 	 */
-    //% weight=63 blockId=GetFTLightStatus="Get FT Light Status |%digital_pin"
+    //% weight= blockId=GetFTLightStatus="Get FT Light Status |%digital_pin"
     export function getFTLight(digital_pin: number) {
-        let status = pins.digitalReadPin(digital_pin);
-        if (status == 0 ) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return true;
     }
     /**
      * The conversion temperature value is standard command, sent to the mobile phone, and the APP displays the current temperature.
