@@ -789,16 +789,15 @@ namespace singularbot {
      *	Read FT Light Sensor
 	 */
     //% weight=50 blockId=getFTLight block="Get FT Light Status %digital_pin"
-    export function getFTLight(pin: DigitalPin):  number{
-		pins.setPull(pin, PinPullMode.PullUp);
+    export function getFTLight(pin: DigitalPin): number{
         let s = pins.digitalReadPin(pin);
-		if (s == 0) 
-		{	 
+        if (s == 0) 
+        {	 
             return 1;
-		}
-		else 
-		{
-			return 0;
-		}
-	}	
+        }
+        else 
+        {
+            return 0;
+        }
+    }	
 }
