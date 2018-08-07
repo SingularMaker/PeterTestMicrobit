@@ -790,7 +790,7 @@ namespace singularbot {
 	 */
     //% weight=50 blockId=getFTLight block="Get FT Light Status %digital_pin"
     export function getFTLight(pin: DigitalPin): number{
-		pins.setPull(pin, PinPullMode.PullUp);
+		pins.setPull(DigitalPin.P2, PinPullMode.PullUp);
         let s = pins.digitalReadPin(pin);
         if (s == 0) 
         {	 
