@@ -789,8 +789,9 @@ namespace singularbot {
      *	Read FT Light Sensor
 	 */
     //% weight=50 blockId=getFTLight block="Get FT Light Status %digital_pin"
-    export function getFTLight(digital_pin: number):  number{
-        let s = pins.digitalReadPin(DigitalPin.P2);
-        serial.writeBuffer(s);;
+    export function getFTLight(pin: DigitalPin):  number{
+		pins.setPull(pin, PinPullMode.PullUp);
+        let s = pins.digitalReadPin(pin);
+        serial.writeBuffer(s);
 	}	
 }
