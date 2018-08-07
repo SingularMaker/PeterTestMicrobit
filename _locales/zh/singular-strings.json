@@ -61,5 +61,6 @@
 	"singularbot.convertBattery|block":"轉換電量命令 %data",
 	"singularbot.littleStarMelody|block":"小星星旋律",
 	"singularbot.SendType.NoDelaySend|block":"立即設置",
-	"singularbot.SendType.DelaySend|block":"延時設置"
+	"singularbot.SendType.DelaySend|block":"延時設置",
+	"singularbot.getFTLight|block":"讀取慧魚光感%digital_pin狀態"
 }
