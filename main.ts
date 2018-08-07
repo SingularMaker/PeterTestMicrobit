@@ -115,7 +115,6 @@ namespace singularbot {
         BaudRate.BaudRate9600);
         initRGBLight();   
         initColorSensor();
-		pins.setPull(DigitalPin.P2, PinPullMode.PullUp);
     }
 /**
 * Set the angle of servo 1 to 8, range of 0~180 degree
@@ -786,10 +785,17 @@ namespace singularbot {
     }
 
 
-		    /**
+    /**
+     *	FT Light Sensor Initial
+	 */
+    //% weight=50 blockId=FT_LightInit block="FT Light Initial %digital_pin"	
+	export function FT_LightInit(pin: DigitalPin): number) {
+        pins.setPull(pin, PinPullMode.PullUp);
+    }
+    /**
      *	Read FT Light Sensor
 	 */
-    //% weight=50 blockId=getFTLight block="Get FT Light Status %digital_pin"
+    //% weight=49 blockId=getFTLight block="Get FT Light Status %digital_pin"
     export function getFTLight(pin: DigitalPin): number{
         let s = pins.digitalReadPin(pin);
         if (s == 0) 
