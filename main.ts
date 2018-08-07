@@ -756,7 +756,7 @@ namespace singularbot {
 	    /**
      *	Read FT Light Sensor
 	 */
-    //% weight=63 blockId=GetFTLightStatus block="Get FT Light Status %digital_pin"
+    //% weight=63 blockId=getFTLight block="Get FT Light Status %digital_pin"
     export function getFTLight(digital_pin: number) {
         return true;
     }
