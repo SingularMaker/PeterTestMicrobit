@@ -792,6 +792,13 @@ namespace singularbot {
     export function getFTLight(pin: DigitalPin):  number{
 		pins.setPull(pin, PinPullMode.PullUp);
         let s = pins.digitalReadPin(pin);
-        return s;
+		if (s == 0) 
+		{	 
+            return true;
+		}
+		else 
+		{
+			return false;
+		}
 	}	
 }
