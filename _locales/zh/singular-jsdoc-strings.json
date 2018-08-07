@@ -19,4 +19,5 @@
 	"singularbot.convertTemperature":"轉換溫度值為標準命令，發送到手機端，APP會顯示當前溫度",
 	"singularbot.convertLight":"轉換光線值為標準命令，發送到手機端，APP會顯示當前光線等級(0~255)",
 	"singularbot.littleStarMelody":"小星星旋律"
+	"singularbot.getFTLight":"慧魚光感狀態"
 }
