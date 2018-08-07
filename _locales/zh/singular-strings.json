@@ -1,5 +1,6 @@
 {
 	"singularbot.singularbotInit|block": "初始化singularbot",
+	"singularbot.getFTLight|block":"讀取慧魚光感|%digital_pin|狀態"
 	"singularbot.setServo|block": "設置舵機|編號 %index|角度 %angle|執行時間 %duration",
 	"singularbot.setMotorSpeed|block": "設置電機1速度|%speed1|和電機2|速度 %speed2",
 	"singularbot.Ultrasonic|block": "超聲波檢測到障礙物距離(釐米)",
@@ -61,6 +62,5 @@
 	"singularbot.convertBattery|block":"轉換電量命令 %data",
 	"singularbot.littleStarMelody|block":"小星星旋律",
 	"singularbot.SendType.NoDelaySend|block":"立即設置",
-	"singularbot.SendType.DelaySend|block":"延時設置",
-	"singularbot.getFTLight|block":"讀取慧魚光感%digital_pin狀態"
+	"singularbot.SendType.DelaySend|block":"延時設置"
 }
