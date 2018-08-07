@@ -792,6 +792,6 @@ namespace singularbot {
     export function getFTLight(pin: DigitalPin):  number{
 		pins.setPull(pin, PinPullMode.PullUp);
         let s = pins.digitalReadPin(pin);
-        serial.writeBuffer(s);
+        return s;
 	}	
 }
