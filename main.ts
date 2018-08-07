@@ -783,10 +783,10 @@ namespace singularbot {
         return ["C4:4", "C4:4", "G4:4", "G4:4", "A4:4", "A4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "D4:4", "C4:4", "G4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "G4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "C4:4", "C4:4", "G4:4", "G4:4", "A4:4", "A4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "D4:4", "C4:4"];
     }
 
-/**
-*	Read FT Light Sensor*/
-
-//% weight=56 blockGap=50 blockId=GetFTLightStatus="Get Light status|%digital_pin"
+    /**
+     *	Read FT Light Sensor
+	 */
+    //% weight=56 blockId=GetFTLightStatus="Get Light status %digital_pin"
     export function getFTLight(digital_pin: number) {
         let status = pins.digitalReadPin(digital_pin);
         if (status == 0 ) {
@@ -795,6 +795,4 @@ namespace singularbot {
             return 0;
         }
     }
-
-
 }
