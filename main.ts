@@ -794,11 +794,11 @@ namespace singularbot {
         let s = pins.digitalReadPin(pin);
 		if (s == 0) 
 		{	 
-            return true;
+            return 1;
 		}
 		else 
 		{
-			return false;
+			return 0;
 		}
 	}	
 }
