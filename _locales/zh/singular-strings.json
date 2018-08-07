@@ -1,7 +1,7 @@
 {
 	"singularbot.singularbotInit|block": "初始化singularbot",
 	"singularbot.getFTLight|block":"讀取慧魚光感 %digital_pin 狀態",
-	"singularbot.FT_LightInit|block":"慧魚光感 %digital_pin 初始化",
+	"singularbot.InitFTLight|block":"慧魚光感 %digital_pin 初始化",
 	"singularbot.setServo|block": "設置舵機|編號 %index|角度 %angle|執行時間 %duration",
 	"singularbot.setMotorSpeed|block": "設置電機1速度|%speed1|和電機2|速度 %speed2",
 	"singularbot.Ultrasonic|block": "超聲波檢測到障礙物距離(釐米)",

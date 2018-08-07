@@ -1,7 +1,7 @@
 {
     "singularbot.singularbotInit":"singularbot板初始化，請在開機時執行",
     "singularbot.getFTLight":"慧魚光感狀態",
-	"singularbot.FT_LightInit":"慧魚光感初始化"，
+	"singularbot.InitFTLight":"慧魚光感初始化",
 	"singularbot.setServo":"設置1到8號舵機角度，角度範圍0~180",
 	"singularbot.setMotorSpeed":"設置馬達1和馬達2的速度，速度範圍-100到100，可控制坦克車行進和轉彎",
 	"singularbot.Ultrasonic":"獲取超聲波檢測到障礙物的距離",

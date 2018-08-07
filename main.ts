@@ -788,8 +788,8 @@ namespace singularbot {
     /**
      *	FT Light Sensor Initial
 	 */
-    //% weight=50 blockId=FT_LightInit block="FT Light Initial %digital_pin"	
-	export function FT_LightInit(pin: DigitalPin) {
+    //% weight=50 blockId=InitFTLight block="Initial FT Light %digital_pin"	
+	export function InitFTLight(pin: DigitalPin) {
         pins.setPull(pin, PinPullMode.PullUp);
     }
     /**
