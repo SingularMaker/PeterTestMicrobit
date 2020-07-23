@@ -12,6 +12,6 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-singularbot=github:SingularMaker/MicrobitSingularBot
+singularbot=github:SingularMaker/PeterTestMicrobit
 ```
 
