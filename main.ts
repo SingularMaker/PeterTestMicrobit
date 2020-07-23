@@ -753,7 +753,6 @@ namespace singularbot {
         return cmdStr;
     }
 
-
     /**
      * The conversion temperature value is standard command, sent to the mobile phone, and the APP displays the current temperature.
      */
@@ -783,28 +782,4 @@ namespace singularbot {
     export function littleStarMelody(): string[] {
         return ["C4:4", "C4:4", "G4:4", "G4:4", "A4:4", "A4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "D4:4", "C4:4", "G4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "G4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "C4:4", "C4:4", "G4:4", "G4:4", "A4:4", "A4:4", "G4:4", "F4:4", "F4:4", "E4:4", "E4:4", "D4:4", "D4:4", "C4:4"];
     }
-
-
-    /**
-     *	FT Light Sensor Initial
-	 */
-    //% weight=50 blockId=InitFTLight block="Initial FT Light %digital_pin"
-    export function InitFTLight(pin: DigitalPin) {
-        pins.setPull(pin, PinPullMode.PullUp);
-    }
-    /**
-     *	Read FT Light Sensor
-	 */
-    //% weight=49 blockId=getFTLight block="Get FT Light Status %digital_pin"
-    export function getFTLight(pin: DigitalPin): number{
-        let s = pins.digitalReadPin(pin);
-        if (s == 0) 
-        {	 
-            return 1;
-        }
-        else 
-        {
-            return 0;
-        }
-    }	
 }

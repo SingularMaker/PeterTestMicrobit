@@ -11,8 +11,8 @@
         "main.ts",
         "RGBLight.ts",
         "sendbuffer.asm",
-        "_locales/zh/singular-strings.json",
-        "_locales/zh/singular-jsdoc-strings.json"
+        "_locales/zh/singularbot-strings.json",
+        "_locales/zh/singularbot-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
