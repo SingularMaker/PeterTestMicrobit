@@ -112,7 +112,7 @@ namespace singularbot {
         serial.redirect(
         SerialPin.P12,
         SerialPin.P8,
-        BaudRate.BaudRate9600);
+        BaudRate.BaudRate115200);
         initRGBLight();   
         initColorSensor();
     }
